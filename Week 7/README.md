@@ -11,7 +11,7 @@ Time spent: 100 hours spent in total
     - Vulnerability types: XSS
     - Tested in version:4.2
     - Fixed in version: 4.3
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='images/gif0.gif' title='screen' width='' alt='' />
   - [x] Steps to recreate: In the text editor of a new post, insert the following:
 	`[caption width="3" caption='<a href="' ">]</a><a href="http://onmouseover='alert(1)'">XSS!</a>`
   - [x] Affected source code: 
@@ -21,7 +21,7 @@ Time spent: 100 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.6.1
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='images/gif1.gif' title='screen' width='' alt='' />
   - [x] Steps to recreate: In a new media post, upload an image with the name: `filename<img src=a onerror=alert(1)>.png` 
   - [x] Affected source code: 
 - [Link 2](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php)
@@ -30,7 +30,7 @@ Time spent: 100 hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.7.3
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: <img src='images/gif2.gif' title='screen' width='' alt='' />
   - [x] Steps to recreate: Insert the following into the text editor of a post: `[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]`
   - [x] Affected source code:
 - [Link 3](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
