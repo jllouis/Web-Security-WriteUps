@@ -33,7 +33,7 @@ Time spent: 100 hours spent in total
   - [x] GIF Walkthrough: 
   - [x] Steps to recreate: Insert the following into the text editor of a post: `[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed]`
   - [x] Affected source code:
-   -[Link 3](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
+- [Link 3](https://core.trac.wordpress.org/browser/branches/4.1/src/wp-includes/media.php)
 ## Assets
 
 List any additional assets, such as scripts or files
